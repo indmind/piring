@@ -1,0 +1,25 @@
+{
+  "name": "piring",
+  "version": "0.1.1",
+  "description": "Simple file transfer",
+  "preferGlobal": true,
+  "bin": "bin/piring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "indmind",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "ftp": "^0.3.10",
+    "ftpd": "git+https://git@github.com/sstur/nodeftpd.git",
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.10.2"
+  }
+}
